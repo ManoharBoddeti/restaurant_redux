@@ -1,0 +1,58 @@
+[
+  { "ItemName": "Chilli Chicken", "menu": "NVS01", "price": 250 },
+  {
+    "ItemName": "Apollo Fish",
+    "menu": "NVS02",
+    "price": 60
+  },
+  { "ItemName": "Chicken LollyPop", "menu": "NVS03", "price": 100 },
+  { "ItemName": "Kabab Chicken", "menu": "NVS04", "price": 120 },
+  { "ItemName": "Potato LollyPop", "menu": "VS01", "price": 80 },
+  { "ItemName": "Crispy Corn", "menu": "VS02", "price": 60 },
+  { "ItemName": "Crispy BabyCorn", "menu": "VS03", "price": 70 },
+  {
+    "ItemName": "PopCorn",
+    "menu": "VS04",
+    "price": 90
+  },
+  {
+    "ItemName": "Chicken Dum Biryani",
+    "menu": "NVM01",
+    "price": 130
+  },
+  {
+    "ItemName": "Chicken Mogalai Biryani",
+    "menu": "NVM02",
+    "price": 180
+  },
+  {
+    "ItemName": "Chicken FryPeace Biryani",
+    "menu": "NVM03",
+    "price": 90
+  },
+  {
+    "ItemName": "Prawns Biryani",
+    "menu": "NVM04",
+    "price": 150
+  },
+  {
+    "ItemName": "Fish Biryani",
+    "menu": "NVM05",
+    "price": 100
+  },
+  {
+    "ItemName": "veg dum biryani",
+    "menu": "VM01",
+    "price": 80
+  },
+  {
+    "ItemName": "veg Fried Rice ",
+    "menu": "VM02",
+    "price": 80
+  },
+  {
+    "ItemName": "Panner Biryani",
+    "menu": "VM03",
+    "price": 160
+  }
+]

@@ -1,38 +1,144 @@
-.App {
+.boxes {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  color: red;
+  margin: 20px;
+
+  border-radius: 25px;
+
+  float: left;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  /* grid-gap: 1px; */
+}
+
+.grid-menu-heading {
+  padding: 5px;
+  background-color: salmon;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid-items-heading {
+  padding: 5px;
+  background-color: salmon;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid-cart-heading {
+  padding: 5px;
+  background-color: salmon;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-menu {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 5px; */
+}
+
+.links {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.search {
+  padding-right: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  padding-left: 8px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+
+.login {
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.back {
+  margin-right: 50px;
+  border: 1px solid burlywood;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.grid-menu {
+  text-align: center;
+}
+
+.grid-items {
+  text-align: center;
+}
+
+.grid-cart {
+  text-align: center;
+}
+
+.veg {
+  border: 1px solid;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: burlywood;
+  cursor: pointer;
+}
+
+.veg-starters {
+  color: aliceblue;
+  width: 50%;
+  border: 1px solid;
+  margin: auto;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: skyblue;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.veg-main {
+  color: aliceblue;
+  width: 50%;
+  border: 1px solid;
+  margin: auto;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: skyblue;
+  cursor: pointer;
+}
+.nonveg {
+  border: 1px solid;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: burlywood;
+  cursor: pointer;
+}
+
+.nonveg-starters {
+  color: aliceblue;
+  width: 60%;
+  border: 1px solid;
+  margin: auto;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(230, 119, 75);
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.nonveg-main {
+  color: aliceblue;
+  width: 60%;
+  border: 1px solid;
+  margin: auto;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(230, 119, 75);
+  cursor: pointer;
 }
