@@ -4,33 +4,33 @@
   border: 1px solid black;
   color: red;
   margin: 20px;
-
   border-radius: 25px;
-
+  background-color: brown;
   float: left;
+  cursor: pointer;
 }
 
 .grid-layout {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  /* grid-gap: 1px; */
+  grid-gap: 1px;
 }
 
 .grid-menu-heading {
   padding: 5px;
-  background-color: salmon;
+  background-color: rgb(114, 250, 216);
   text-align: center;
 }
 
 .grid-items-heading {
   padding: 5px;
-  background-color: salmon;
+  background-color: rgb(114, 250, 216);
   text-align: center;
 }
 
 .grid-cart-heading {
   padding: 5px;
-  background-color: salmon;
+  background-color: rgb(114, 250, 216);
   text-align: center;
 }
 
@@ -82,8 +82,8 @@ input {
 
 .veg {
   border: 1px solid;
-  margin: 5px;
-  border-radius: 5px;
+  margin: 15px;
+  border-radius: 15px;
   padding: 5px;
   background-color: burlywood;
   cursor: pointer;
@@ -96,7 +96,7 @@ input {
   margin: auto;
   border-radius: 5px;
   padding: 5px;
-  background-color: skyblue;
+  background-color: rgb(3, 136, 189);
   cursor: pointer;
   margin-bottom: 8px;
 }
@@ -108,13 +108,13 @@ input {
   margin: auto;
   border-radius: 5px;
   padding: 5px;
-  background-color: skyblue;
+  background-color: rgb(3, 136, 189);
   cursor: pointer;
 }
 .nonveg {
   border: 1px solid;
-  margin: 5px;
-  border-radius: 5px;
+  margin: 15px;
+  border-radius: 15px;
   padding: 5px;
   background-color: burlywood;
   cursor: pointer;
@@ -140,5 +140,39 @@ input {
   border-radius: 5px;
   padding: 5px;
   background-color: rgb(230, 119, 75);
+  cursor: pointer;
+}
+.items {
+  color: white;
+  border: 1px solid;
+  width: 20%;
+  float: right;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.items-veg {
+  background-color: cadetblue;
+}
+
+.items-nonveg {
+  background-color: rgb(218, 25, 11);
+  color: aliceblue;
+}
+
+.increment {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.decrement {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 8px;
   cursor: pointer;
 }

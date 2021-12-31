@@ -26,7 +26,7 @@
     "price": 180
   },
   {
-    "ItemName": "Chicken FryPeace Biryani",
+    "ItemName": "Chicken FryPiece Biryani",
     "menu": "NVM03",
     "price": 90
   },
@@ -54,5 +54,10 @@
     "ItemName": "Panner Biryani",
     "menu": "VM03",
     "price": 160
+  },
+  {
+    "ItemName": "Mushroom Biryani ",
+    "menu": "VM04",
+    "price": 180
   }
 ]
